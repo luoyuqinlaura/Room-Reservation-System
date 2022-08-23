@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="campus_manage" />
+        <module name="service_user" />
+        <module name="rabbit_util" />
+        <module name="service_order" />
+        <module name="service_cmn" />
+        <module name="service_campus_client" />
+        <module name="service_gateway" />
+        <module name="common_util" />
+        <module name="service_order_client" />
+        <module name="service_user_client" />
+        <module name="service_campus" />
+        <module name="model" />
+        <module name="service_cmn_client" />
+        <module name="service_util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="campus_manage" target="11" />
+      <module name="common" target="1.8" />
+      <module name="common_util" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="nustudy_parent" target="1.8" />
+      <module name="rabbit_util" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service_campus" target="1.8" />
+      <module name="service_campus_client" target="1.8" />
+      <module name="service_client" target="1.8" />
+      <module name="service_cmn" target="1.8" />
+      <module name="service_cmn_client" target="1.8" />
+      <module name="service_gateway" target="11" />
+      <module name="service_order" target="1.8" />
+      <module name="service_order_client" target="1.8" />
+      <module name="service_user" target="1.8" />
+      <module name="service_user_client" target="1.8" />
+      <module name="service_util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="campus_manage" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="common_util" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="nustudy_parent" options="-parameters" />
+      <module name="rabbit_util" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service_campus" options="-parameters" />
+      <module name="service_campus_client" options="-parameters" />
+      <module name="service_client" options="-parameters" />
+      <module name="service_cmn" options="-parameters" />
+      <module name="service_cmn_client" options="-parameters" />
+      <module name="service_gateway" options="-parameters" />
+      <module name="service_order" options="-parameters" />
+      <module name="service_order_client" options="-parameters" />
+      <module name="service_user" options="-parameters" />
+      <module name="service_user_client" options="-parameters" />
+      <module name="service_util" options="-parameters" />
+    </option>
+  </component>
+</project>

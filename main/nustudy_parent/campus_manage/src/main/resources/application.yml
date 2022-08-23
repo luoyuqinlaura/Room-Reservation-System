@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: campus-manage
+  profiles:
+    active: dev
